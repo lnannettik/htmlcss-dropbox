@@ -60,13 +60,33 @@ nav {
 }
 
 
-
-
-
-
-
 /* JUMBOTRONE */
 .jumbo {
     background-color: #b4d0e7;
+    width: 100%;
+}
+
+.jumbotext {
+    padding: 50px;
+    width: 90%;
+    background-color: #b4d0e7;
+    margin: auto;
+}
+
+.jumbo h1 {
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.jumbo h3 {
+    width: 35%;
+    margin-bottom: 40px;
+}
+
+.jumbo h4 {
+    width: 35%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
 }
 
