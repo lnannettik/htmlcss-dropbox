@@ -6,3 +6,67 @@
     font-family: 'Open Sans', sans-serif;;
 }
 
+/* UTILITIES */
+
+.buttonstyle {
+    padding: 10px 20px;
+    text-decoration: none;
+    background: #0061ff;
+    color: white;
+}
+
+
+/* NAV */
+
+.retronav {
+    background-color: #fff;
+    height: 80px;
+}
+
+nav {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    background: white;
+}
+
+.topline .partesx img {
+    vertical-align: sub;
+}
+
+.topline li {
+    padding: 0px 20px;
+}
+
+.partesx {
+    width: calc(100% / 3);    
+    float: left;
+}
+
+.partesx li {
+    float: left;
+    list-style: none;
+}
+
+.partedx {
+    width: calc(100% / 3);    
+    float: right;
+}
+
+.partedx li {
+    float: right;
+    list-style: none;
+}
+
+
+
+
+
+
+
+/* JUMBOTRONE */
+.jumbo {
+    background-color: #b4d0e7;
+}
+
