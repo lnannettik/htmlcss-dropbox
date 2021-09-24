@@ -7,6 +7,12 @@
 }
 
 /* UTILITIES */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 .buttonstyle {
     padding: 10px 20px;
@@ -76,7 +82,7 @@ nav {
 }
 
 .jumbo h1 {
-    font-size: 70px;
+    font-size: 10vh;
     margin-bottom: 50px;
 }
 
@@ -103,3 +109,49 @@ nav {
     object-fit: contain;
 }
 
+/* SECTION 2 */
+
+.sec2 {
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: aliceblue;
+}
+
+.titolone {
+    font-size: 6vh;
+    margin-bottom: 20px;
+}
+
+.colonna {
+    width: 27%;  
+    float: left;  
+    border: 1px solid lightgray;
+    margin: 0px 3%;
+}
+
+.struttura {
+    margin-top: 30px;
+}
+
+.colonna h5 {
+    margin: 20px 0px;
+}
+
+.colonna .unit {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    line-height: 40px;
+}
+
+.dx {
+    float: right;
+}
+
+.spec {
+    padding: 20px;
+}
+
+.prova {
+    margin: 30px;
+}
