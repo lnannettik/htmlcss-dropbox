@@ -109,6 +109,7 @@ nav {
     object-fit: contain;
 }
 
+
 /* SECTION 2 */
 
 .sec2 {
@@ -129,6 +130,7 @@ nav {
 /* COLONNE */
 .colonna {
     width: 30%;  
+    height: 1000px;
     float: left;  
     border: 1px solid lightgray;
 }
@@ -138,7 +140,11 @@ nav {
 }
 
 .colonna h5 {
-    margin: 20px 0px;
+    margin: 30px 0px;
+}
+
+.colonna h3 {
+    margin-top: 40px;
 }
 
 .colonna .unit {
@@ -147,8 +153,20 @@ nav {
     line-height: 40px;
 }
 
+.elenco{
+    list-style: none;
+}
+
+.spec h1 {
+    font-size: 5vh;
+}
+
+.spec h6 {
+    margin-bottom: 50px;
+}
+
 .elenco li {
-    margin: 20px 0px;
+    margin: 30px 0px;
 }
 
 .dx {
@@ -156,13 +174,18 @@ nav {
 }
 
 .spec {
-    padding: 20px;
+    padding: 25px;
 }
 
 .prova {
-    margin: 30px;
+    display: inline-block;
+    margin: 30px auto;
+    width: 100%;
+    text-align: center;
 }
 
+
+/* COLONNA BASSA SECTION 2 */
 .colsotto{
     border: 1px solid lightgray;
     margin: 40px 0;
@@ -175,12 +198,11 @@ nav {
 }
 
 .cont {
-    margin: 10px 0px;
     position: relative;
 }
 
 .m-10 {
-    margin: 10px 0px;
+    margin-bottom: 10px;
 }
 
 .colsotto h1 {
@@ -190,13 +212,57 @@ nav {
 .cont a {
     position: absolute;
     right: 20px;
-    top: 10px;
+    top: 20px;
 }
 
 .cont p {
-    margin: 30px 0px 0px 0px;
+    margin-top: 30px;
 }
 
 .bottonesotto {
     padding: 10px 80px;
+}
+
+
+/* SECTION 3 */
+.section3 {
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.img-partner {
+    display: inline-block;
+    width: 50%;
+}
+
+.img-partner img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.text {
+    float: right;
+    width: 50%;
+    padding: 40px;
+}
+
+.m-20 {
+    margin-bottom: 30px;
+}
+
+.text h1 {
+    font-size: 5vh;
+}
+
+.text p {
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.text a {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
 }
