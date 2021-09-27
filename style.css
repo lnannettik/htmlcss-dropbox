@@ -115,7 +115,6 @@ nav {
     width: 70%;
     margin: auto;
     margin-top: 100px;
-    background-color: aliceblue;
 }
 
 .titolone {
@@ -123,15 +122,19 @@ nav {
     margin-bottom: 20px;
 }
 
-.colonna {
-    width: 27%;  
-    float: left;  
-    border: 1px solid lightgray;
-    margin: 0px 3%;
-}
-
 .struttura {
     margin-top: 30px;
+}
+
+/* COLONNE */
+.colonna {
+    width: 30%;  
+    float: left;  
+    border: 1px solid lightgray;
+}
+
+.centro {
+    margin: 0px 5% 0px 5%;
 }
 
 .colonna h5 {
@@ -144,6 +147,10 @@ nav {
     line-height: 40px;
 }
 
+.elenco li {
+    margin: 20px 0px;
+}
+
 .dx {
     float: right;
 }
@@ -154,4 +161,42 @@ nav {
 
 .prova {
     margin: 30px;
+}
+
+.colsotto{
+    border: 1px solid lightgray;
+    margin: 40px 0;
+}
+
+.colsotto .unit {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    line-height: 40px;
+}
+
+.cont {
+    margin: 10px 0px;
+    position: relative;
+}
+
+.m-10 {
+    margin: 10px 0px;
+}
+
+.colsotto h1 {
+    display: inline-block;
+}
+
+.cont a {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.cont p {
+    margin: 30px 0px 0px 0px;
+}
+
+.bottonesotto {
+    padding: 10px 80px;
 }
