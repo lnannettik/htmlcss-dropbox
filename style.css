@@ -13,29 +13,40 @@
     clear: both;
 }
 
-
 .buttonstyle {
-    padding: 10px 20px;
+    padding: 5px 20px;
     text-decoration: none;
     background: #0061ff;
     color: white;
 }
 
+body {
+    width: 1170px;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    width: 1170px;
+    margin: auto;
+}
+
 
 /* NAV */
-
 .retronav {
     background-color: #fff;
-    height: 80px;
+    height: 60px;
 }
 
 nav {
     position: fixed;
-    height: 80px;
-    width: 100%;
-    line-height: 80px;
+    height: 60px;
+    width: 1170px;
+    line-height: 60px;
     background: white;
     z-index: 5;
+    margin: auto;
+    font-size: 2vh;
 }
 
 .topline .partesx img {
@@ -47,7 +58,7 @@ nav {
 }
 
 .partesx {
-    width: calc(100% / 3);    
+    width: 50%;    
     float: left;
 }
 
@@ -57,7 +68,7 @@ nav {
 }
 
 .partedx {
-    width: calc(100% / 3);    
+    width: 50%;    
     float: right;
 }
 
@@ -70,24 +81,25 @@ nav {
 /* JUMBOTRONE */
 .jumbo {
     background-color: #b4d0e7;
-    width: 100%;
+    width: 1170px;
     position: relative;
+    margin: auto;
 }
 
 .jumbotext {
     padding: 50px;
-    width: 80%;
+    width: 90%;
     background-color: #b4d0e7;
     margin: auto;
 }
 
 .jumbo h1 {
-    font-size: 10vh;
+    font-size: 7vh;
     margin-bottom: 50px;
 }
 
-.jumbo h3 {
-    width: 35%;
+.jumbo h5 {
+    width: 33%;
     margin-bottom: 40px;
 }
 
@@ -98,10 +110,11 @@ nav {
 }
 
 .contenitore-jumbo-img {
-    width: 40%;
+    width: 55%;
     position: absolute;
-    right: 275px;
-    bottom: -70px;}
+    right: 55px;
+    bottom: -50px;
+    }
 
 .jumboimg {
     width: 100%;
@@ -113,7 +126,7 @@ nav {
 /* SECTION 2 */
 
 .sec2 {
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-top: 100px;
 }
@@ -144,7 +157,8 @@ nav {
 }
 
 .colonna h3 {
-    margin-top: 40px;
+    font-size: 3vh;
+    font-weight: 700;
 }
 
 .colonna .unit {
@@ -177,6 +191,10 @@ nav {
     padding: 25px;
 }
 
+hr {
+    margin: 40px 140px 40px 0px;
+}
+
 .prova {
     display: inline-block;
     margin: 30px auto;
@@ -202,7 +220,7 @@ nav {
 }
 
 .m-10 {
-    margin-bottom: 10px;
+    margin: 10px 0px;
 }
 
 .colsotto h1 {
@@ -220,13 +238,13 @@ nav {
 }
 
 .bottonesotto {
-    padding: 10px 80px;
+    padding: 5px 70px;
 }
 
 
 /* SECTION 3 */
 .section3 {
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-top: 100px;
 }
@@ -259,6 +277,7 @@ nav {
 .text p {
     line-height: 25px;
     margin-bottom: 40px;
+    font-size: 15px;
 }
 
 .text a {
@@ -270,7 +289,7 @@ nav {
 
 /* SECTION 4 */
 .section4 {
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-top: 100px;
 }
@@ -292,4 +311,89 @@ nav {
     width: 100%;
     object-fit: contain;
 }
+
+.card p {
+    font-size: 15px;
+}
+
+
+/* SECTION 5 */
+.struttura-a-3 {
+    width: 1170px;
+    height: 351px;
+}
+
+.quadro {
+    float: left;
+    height: 100%;
+}
+
+.cart {
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+.centrale {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+.cartello-sotto{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-color: #b4d0e7;
+}
+
+.sx {
+    width: 30%;
+}
+
+.cx {
+    width: 40%;
+}
+
+.dx {
+    width: 30%;
+}
+
+.cartello1 {
+    background-color: #a2d39b;
+}
+
+.cartello2 {
+    background-color: #61082b;
+}
+
+.cartello3 {
+    background-color: #0093ce;
+}
+
+.cartello4 {
+    background-color: #ff1c1c;
+}
+
+.cartello5 {
+    background-color: #d5001f;
+}
+
+.cartello6 {
+    background-color: #b4d0e7;
+}
+
+.cartello7 {
+    background-color: #0d2481;
+}
+
+.cartello8 {
+    background-color: #ffd830;
+}
+
+
+/* SECTION 6 */
+
+
 
