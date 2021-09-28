@@ -362,6 +362,7 @@ hr {
     width: 100%;
     height: 300px;
     background-color: #b4d0e7;
+    margin-bottom: 70px;
 }
 
 .sx {
@@ -459,6 +460,32 @@ hr {
 
 
 /* SECTION 6 */
+.section6 {
+    margin: auto;
+    width: 80%;
+}
 
+.section6 h1 {
+    margin: 50px 0px;
+}
+
+.faq {
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    border-top: 2px solid rgba(239, 239, 239, .3)
+}
+
+.elenco .ultimo {
+    border-bottom: 2px solid rgba(239, 239, 239, .3)
+}
+
+.faq .testo-faq {
+    float: left;
+}
+
+.faq .freccina {
+    float: right;
+}
 
 
