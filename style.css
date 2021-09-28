@@ -13,6 +13,20 @@
     clear: both;
 }
 
+.blue {
+    color: #0061ff;
+}
+
+.pulito {
+    text-decoration: none;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+
+
 .buttonstyle {
     padding: 5px 20px;
     text-decoration: none;
@@ -98,10 +112,11 @@ nav {
 }
 .jumbo i {
     font-size: xx-large;
+    color: black;
 }
 
-.jumbo i:active {
-    
+html {
+    scroll-behavior: smooth;
 }
 
 .jumbo h1 {
@@ -144,7 +159,7 @@ nav {
 
 .titolone {
     font-size: 6vh;
-    margin-bottom: 20px;
+    margin: 60px 0px 20px 0px;
 }
 
 .struttura {
@@ -178,8 +193,14 @@ nav {
     line-height: 40px;
 }
 
-.elenco{
+.elenco {
     list-style: none;
+    text-indent: -12px;
+}
+
+.elenco i {
+    padding-right: 5px;
+    color: #0061ff;
 }
 
 .spec h1 {
@@ -192,6 +213,10 @@ nav {
 
 .elenco li {
     margin: 30px 0px;
+}
+
+.elenco h5 {
+    font-weight: 300;
 }
 
 .dx {
@@ -211,6 +236,7 @@ hr {
     margin: 30px auto;
     width: 100%;
     text-align: center;
+    font-size: 13px;
 }
 
 
@@ -336,6 +362,10 @@ hr {
 
 .titoli h1 {
     margin-bottom: 25px;
+}
+
+.titoli a {
+    text-decoration: none;
 }
 
 .struttura-a-3 {
@@ -488,7 +518,7 @@ hr {
     border-top: 2px solid rgba(239, 239, 239, .3)
 }
 
-.elenco .ultimo {
+.lista .ultimo {
     border-bottom: 2px solid rgba(239, 239, 239, .3)
 }
 
@@ -498,6 +528,23 @@ hr {
 
 .faq .freccina {
     float: right;
+}
+
+.shownedfaq {
+    position: relative;
+}
+
+.hiddenfaq {
+    position: absolute;
+    width: 936px;
+}
+
+
+
+.loren {
+    font-size: 13px;
+    padding: 20px;
+    border-top: 2px solid rgba(239, 239, 239, .3)
 }
 
 
