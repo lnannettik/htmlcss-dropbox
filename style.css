@@ -62,6 +62,10 @@ nav {
     float: left;
 }
 
+.partesx ul {
+    padding-left: 0px;
+}
+
 .partesx li {
     float: left;
     list-style: none;
@@ -92,6 +96,13 @@ nav {
     background-color: #b4d0e7;
     margin: auto;
 }
+.jumbo i {
+    font-size: xx-large;
+}
+
+.jumbo i:active {
+    
+}
 
 .jumbo h1 {
     font-size: 7vh;
@@ -103,7 +114,7 @@ nav {
     margin-bottom: 40px;
 }
 
-.jumbo h4 {
+.jumbo h6 {
     width: 35%;
     margin-bottom: 25px;
     margin-top: 25px;
@@ -463,6 +474,7 @@ hr {
 .section6 {
     margin: auto;
     width: 80%;
+    margin-bottom: 70px;
 }
 
 .section6 h1 {
@@ -489,3 +501,50 @@ hr {
 }
 
 
+/* FOOTER */
+footer {
+    width: 1170px;
+    height: 400px;
+    background-color: black;
+}
+
+.nav-tree {
+    padding: 50px 50px;
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.elenco-foot ul {
+    float: left;
+    width: 20%;
+    list-style: none;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.elenco-foot ul :first-child {
+    font-size: large;
+    margin: 15px 0px;
+}
+
+footer li {
+    font-weight: 700;
+    font-size: smaller;
+    color: white;
+    line-height: 22px;
+}
+
+.hr {
+    width: 100%;
+}
+
+footer span {
+    color: lightgray;
+}
+
+.language {
+    margin-left: 10%;
+    width: 20%;
+    height: 20%;
+}
