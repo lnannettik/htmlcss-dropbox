@@ -68,7 +68,6 @@ nav {
 }
 
 .topline li {
-    /* margin: 0px 20px; */
     padding: 0px 20px;
 }
 
@@ -567,27 +566,72 @@ hr {
     float: right;
 }
 
-.shownedfaq {
-    position: relative;
-}
-
-.hiddenfaq {
-    display: none;
+.faq {
     width: 936px;
 }
 
-.shownedfaq:active .hiddenfaq {
-    display: block;
-
+.su {
+    display: none;
 }
 
+.domanda:active .loren {
+    display: block;
+}
 
+.domanda:active .su {
+    display: block;
+}
+
+.domanda:active .giu {
+    display: none;
+}
 
 .loren {
     font-size: 13px;
     padding: 20px;
-    border-top: 2px solid rgba(239, 239, 239, .3)
+    border-top: 2px solid rgba(239, 239, 239, .3);
+    display: none;
 }
+
+
+
+/* .item {
+    background-color: white;
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    display: none;
+    margin: 0px -20px;
+}
+
+.item a {
+    background-color: rgba(211, 211, 211, 0.564);
+    display: inline-block;
+    width: 100%;
+    padding: 0px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.cose:hover {
+    background-color: rgba(211, 211, 211, 0.564);
+}
+
+.cose:hover .item {
+    display: block;
+}
+ */
+
+
+
+
+
+
+
+
+
+
 
 
 /* FOOTER */
