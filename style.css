@@ -25,10 +25,8 @@
     text-decoration: underline;
 }
 
-
-
 .buttonstyle {
-    padding: 5px 20px;
+    padding: 4px 20px;
     text-decoration: none;
     background: #0061ff;
     color: white;
@@ -49,26 +47,28 @@ header {
 /* NAV */
 .retronav {
     background-color: #fff;
-    height: 60px;
+    height: 40px;
 }
 
 nav {
     position: fixed;
-    height: 60px;
+    height: 45px;
     width: 1170px;
-    line-height: 60px;
-    background: white;
+    line-height: 40px;
     z-index: 5;
+    background: white;
     margin: auto;
-    font-size: 2vh;
+    font-size: 14px;
 }
 
 .topline .partesx img {
-    vertical-align: sub;
+    vertical-align: text-bottom;    
+    margin-top: 12px;
+    width: 80%;
 }
 
 .topline li {
-    padding: 0px 20px;
+    margin: 0px 20px;
 }
 
 .partesx {
@@ -93,6 +93,36 @@ nav {
 .partedx li {
     float: right;
     list-style: none;
+}
+
+/* VOCI MENU' */
+.item {
+    background-color: white;
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+
+.item a {
+    background-color: rgba(211, 211, 211, 0.564);
+    display: inline-block;
+    width: 100%;
+    padding: 0px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.item a:hover {
+    background-color: lightgrey;
+}
+
+.cose:hover {
+    background-color: rgba(211, 211, 211, 0.564);
+}
+
+.cose:hover .item {
+    display: block;
 }
 
 
@@ -266,8 +296,9 @@ hr {
 
 .cont a {
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 30px;
+    top: 25px;
+    font-size: 13px;
 }
 
 .cont p {
@@ -497,6 +528,10 @@ hr {
     padding: 5px 70px;
     background-color: white;
     color: black;
+}
+
+.contenitore a:hover {
+    border: 2px solid black;
 }
 
 
