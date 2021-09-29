@@ -47,7 +47,7 @@ header {
 /* NAV */
 .retronav {
     background-color: #fff;
-    height: 40px;
+    height: 45px;
 }
 
 nav {
@@ -68,7 +68,8 @@ nav {
 }
 
 .topline li {
-    margin: 0px 20px;
+    /* margin: 0px 20px; */
+    padding: 0px 20px;
 }
 
 .partesx {
@@ -102,6 +103,7 @@ nav {
     position: absolute;
     z-index: 2;
     display: none;
+    margin: 0px -20px;
 }
 
 .item a {
@@ -570,8 +572,13 @@ hr {
 }
 
 .hiddenfaq {
-    position: absolute;
+    display: none;
     width: 936px;
+}
+
+.shownedfaq:active .hiddenfaq {
+    display: block;
+
 }
 
 
